@@ -1,0 +1,118 @@
+.header{
+    display: flex;padding: 1rem;
+    width: 100%;
+    height:auto;
+    background-color:  rgba(143, 103, 253, 0.945);
+   margin: -1rem -1rem 2rem -1rem;
+}
+.header-img{
+    width: 50%;
+    height: auto;
+    margin:0rem;
+    align-items: center;
+    text-align: center;
+}
+.header-img > img {
+    width: 70%;
+    height: 60%;
+    border:double;
+    border-radius: 20px;
+    margin:2rem 0rem 0rem 0rem;
+
+}
+.header-tex{
+    text-align: center;
+    width: 50%;
+    height: auto;
+}
+.project{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 2rem;
+    height: auto;
+    background-color: rgb(221, 213, 255);
+}
+
+.img-project{
+    margin: 0rem;
+    padding: 0rem;
+    width: 50%;
+    
+}
+.img-project > img {
+    width: 100%;
+} 
+.text-project{
+width: 50%;
+
+}
+h2{
+text-align: center;
+padding: 1rem;
+background-color: rgb(190, 110, 255);
+border-radius: 15px;
+color: aliceblue;
+}
+
+body{
+    background-color: rgb(23, 0, 82);
+  justify-content: center;
+}
+
+.titulo-project{
+    margin: 0rem 0rem 0rem 1rem;
+    border: solid;
+    width: 89%;
+    border-color: rgb(199, 175, 255);
+}
+
+
+.tex-titulo{
+    margin: 0rem 0rem 2rem 1rem;
+    width: 60%;
+    text-align: center;
+}
+.titulos{
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0rem 1rem 5rem;
+}
+.referencias{   
+
+    width: 90%;
+    height: auto;
+    padding: 1rem 1rem;
+    justify-content: center;
+    display: flex;
+    
+  
+}
+.container-referance{
+    border-radius: 15px;
+    margin: 5px;
+    width: 20%;
+    height: auto;
+    border: solid;
+    border-color: rgb(34, 0, 121);
+    padding: 15px;
+    background-color: rgb(218, 205, 255);
+
+}
+.experiencias{
+    display: flex;
+    margin: 2REM;
+
+}
+.container-experiencia> img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 5px;
+
+}
+progress{
+    
+    width: 5rem;
+}

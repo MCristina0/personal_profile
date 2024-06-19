@@ -139,6 +139,7 @@ a{
     color: rgb(0, 0, 0);
 }
     footer{
+        flex-wrap: wrap;
        display: flex;
         background-color: rgb(91, 162, 255);
         width: 100%;
@@ -150,8 +151,10 @@ a{
     }
     .infos{
         display: none;
+        flex-wrap: wrap;
     }
-    .info{    text-align: center;
+    .info{  
+          text-align: center;
         align-items: center;
         margin: 1rem;
         

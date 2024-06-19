@@ -1,29 +1,32 @@
 .header{
-    display: flex;padding: 1rem;
+    margin: -1rem 0rem 0rem -1rem;
+    padding: 1rem;
     width: 100%;
     height:auto;
-    background-color:  rgba(143, 103, 253, 0.945);
-   margin: -1rem -1rem 2rem -1rem;
+    background-color:  rgba(150, 183, 255, 0.945);
+
 }
+
 .header-img{
-    width: 50%;
-    height: auto;
-    margin:0rem;
+    width: 40%;
+    height: 80%;
     align-items: center;
     text-align: center;
 }
 .header-img > img {
     width: 70%;
-    height: 60%;
+    height: 100%;
     border:double;
     border-radius: 20px;
     margin:2rem 0rem 0rem 0rem;
 
 }
-.header-tex{
+.header-tex{ 
+    padding: 1rem 0rem 1rem 0rem;
     text-align: center;
     width: 50%;
     height: auto;
+    overflow: hidden;
 }
 .project{
     display: flex;
@@ -32,7 +35,7 @@
     border-radius: 20px;
     margin: 2rem;
     height: auto;
-    background-color: rgb(221, 213, 255);
+    background-color: rgb(236, 228, 255);
 }
 
 .img-project{
@@ -43,6 +46,7 @@
 }
 .img-project > img {
     width: 100%;
+    height: auto;
 } 
 .text-project{
 width: 50%;
@@ -51,14 +55,14 @@ width: 50%;
 h2{
 text-align: center;
 padding: 1rem;
-background-color: rgb(190, 110, 255);
+background-color: rgb(35, 87, 255);
 border-radius: 15px;
 color: aliceblue;
 }
 
+
 body{
-    background-color: rgb(23, 0, 82);
-  justify-content: center;
+    background-color: azure;
 }
 
 .titulo-project{
@@ -70,7 +74,7 @@ body{
 
 
 .tex-titulo{
-    margin: 0rem 0rem 2rem 1rem;
+    margin: 0rem 0rem 3rem rem;
     width: 60%;
     text-align: center;
 }
@@ -80,7 +84,7 @@ body{
     margin: 0rem 0rem 1rem 5rem;
 }
 .referencias{   
-
+    flex-wrap: wrap;
     width: 90%;
     height: auto;
     padding: 1rem 1rem;
@@ -92,27 +96,262 @@ body{
 .container-referance{
     border-radius: 15px;
     margin: 5px;
-    width: 20%;
+    width: 25%;
     height: auto;
     border: solid;
     border-color: rgb(34, 0, 121);
     padding: 15px;
-    background-color: rgb(218, 205, 255);
+    background-color: rgb(230, 233, 255);
 
 }
 .experiencias{
     display: flex;
-    margin: 2REM;
+    flex-wrap: wrap;
+    margin: 1rem;
+    height: auto;
+   
+}   
+.container-experiencia> img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 1rem;
 
 }
-.container-experiencia> img {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
+.container-experiencia {
+    width: 2rem;
+    height: 2rem;
     margin: 5px;
 
 }
 progress{
-    
-    width: 5rem;
+    width: 4rem;
+    margin: 1REM;
 }
+
+.img-project > img{
+    width: 100%;
+    height: 100%;
+border-radius: 15px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+    footer{
+       display: flex;
+        background-color: rgb(91, 162, 255);
+        width: 100%;
+        padding: 2rem;
+        margin: 21rem 0rem 0rem -2rem;
+        height:auto;
+
+
+    }
+    .infos{
+        display: none;
+    }
+    .info{    text-align: center;
+        align-items: center;
+        margin: 1rem;
+        
+    }
+ 
+body{
+    background-color: rgb(241, 247, 255);
+}
+@media screen and (min-width: 0px) and (max-width: 499px) {
+    .header {
+        display: flex;}
+         
+    .container-experiencia  {
+        width: 4rem;
+    margin: 4rem 0rem 0rem 1rem ;
+        height: 4rem;
+    }
+     
+    .container-experiencia > img {
+        width: 4rem;
+        height: 4rem;
+    }
+    .experiencias{
+       flex-wrap: wrap;
+    }
+    h2 {
+        margin: 2rem 0rem 0rem 2rem;
+        padding: 1rem;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 960px) {
+
+   
+    .container-experiencia > img {
+        width: 8em;
+        height: 8rem;
+        margin: 1rem;
+    
+    }
+        .container-experiencia  {
+            width: 8rem;
+            height: 8rem;
+            margin: 4rem 0rem 0rem 1rem ;
+        
+            
+        }
+    .experiencias{
+        height: 15rem;
+        flex-wrap: wrap;
+    }
+    progress{
+        width: 8rem;
+    }
+    .titulos{
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 0rem 1rem 10rem;
+    }
+
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+          }
+    .project{
+  
+        text-align: center;
+        margin: 1rem;
+        width:40%;
+          }
+    .header-img{
+            width: 40%;
+            height: 70%;
+          }
+    .header-tex{ 
+                padding: 2rem 0rem rem 4rem;
+                text-align: left;
+                width: 50%;
+               font-size:  20px;   
+               height: auto;
+               
+          }
+          .header{
+            display: flex;
+        margin: 0rem;
+    }
+    
+}
+@media screen and (min-width: 960px)  {
+.header{
+margin: 0rem;
+width: 30%;
+height: auto;
+padding: 2rem;
+
+}
+body{
+ width: 100%;
+height: 100%;    
+padding: 0rem;
+margin: 0rem;
+}
+.sesiones-mi{
+    width: 70%;
+    height: auto;
+}
+.contenido{
+    display: flex;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.project{
+    
+    height:7rem;
+    width: 40%;
+    margin: 1rem;
+  
+}
+.img-project{
+    height: 100%;
+    width: 50%;
+
+}
+.titulos{
+ 
+    margin: 0rem 0rem 0rem 10rem;
+   
+}
+.titulo-project{
+ 
+    margin: 0rem 0rem 0rem 1rem;
+   
+}
+
+.header-img     {
+
+    width: 70%;
+    height: 30%;
+    margin: 0rem 2rem 0rem 4rem;
+}
+.header-img > img{
+
+    width: 100%;
+    height: 60%;
+    ;
+    
+}
+
+.header-tex{ 
+margin: 0rem 0rem 0rem 0rem;
+  width: 100%;
+  height: 20%;
+
+}
+
+.experiencias{
+    display: flex;
+    margin: 0rem;
+    padding: 0rem;
+
+}
+.container-experiencia > img {
+    width: 8em;
+    height: 8rem;
+    margin: 1rem;
+
+}
+    .container-experiencia  {
+        width: 8rem;
+        height: 8rem;
+        margin: 4rem 0rem 0rem 1rem ;
+    
+        
+    }
+    progress{
+        width: 8rem;
+    }
+h2{
+    text-align: center;
+ 
+    margin: 1rem 10rem 2rem -9rem;
+    }
+
+    footer{
+
+   display: none;
+   
+    }
+    .infos{
+        height: 10%;
+        margin: 2rem;
+        display: grid;
+        flex-direction: row-reverse;
+    }
+    .info{
+        margin: 1rem;
+    
+    }
+}
+

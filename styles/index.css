@@ -154,10 +154,11 @@ a{
         flex-wrap: wrap;
     }
     .info{  
+        width: 30%;
           text-align: center;
         align-items: center;
         margin: 1rem;
-        
+        overflow: hidden;
     }
  
 body{
